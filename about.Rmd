@@ -1,0 +1,16 @@
+
+## About The Giving History App  
+
+### Background 
+This app is designed to assist finance staff when compiling federal giving history reports. It replaces tedious calculations with a simple file upload.  
+
+### What the App Does
+
+The app takes in a *CSV* of federal giving history which can be download from [here](http://data.influenceexplorer.com/contributions/#Y29udHJpYnV0b3JfZnQ9Sm9obiUyMERvZSZnZW5lcmFsX3RyYW5zYWN0aW9uX3R5cGU9c3RhbmRhcmQ=). An example csv file can be found on my Githud account, **here**
+
+The app then runs the following calculations:   
+1. Creates a data frame with the necessary information - *year, amount,* and *recipient*  
+2. Adds up the total amount given to each recipient per year  
+3. Orders the data frame in descending order by year and then amount  
+4. Allows the user to then download the resulting data.   
+
